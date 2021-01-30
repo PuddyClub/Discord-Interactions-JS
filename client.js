@@ -12,27 +12,27 @@ class InteractionsClient {
 
         // Create Settings
         const tinyCfg = _.defaultsDeep({}, data, {
-            token: '',
+            bot_token: '',
             client_id: '',
-            client_secret: ''
+            user_token: ''
         });
 
         // Token
-        if (typeof tinyCfg.token === "string") {
-            this.token = { value: tinyCfg.token, type: 'Bot' };
+        if (typeof tinyCfg.bot_token === "string") {
+            this.token = { value: tinyCfg.bot_token, type: 'Bot' };
         }
 
         // Nope
         else {
 
             // Client Secret
-            if (typeof tinyCfg.client_secret === "string") {
-                this.token = { value: tinyCfg.client_secret, type: 'Bearer' };
+            if (typeof tinyCfg.user_token === "string") {
+                this.token = { value: tinyCfg.user_token, type: 'Bearer' };
             }
 
             // Nope
             else {
-                throw new Error("discord-slash-commands-client | No token or client secret provided");
+                throw new Error("discord-slash-commands-client | No bot token or user token provided.");
             }
 
         }
@@ -42,7 +42,7 @@ class InteractionsClient {
 
         // Nope
         else {
-            throw new Error("discord-slash-commands-client | No clientID provided");
+            throw new Error("discord-slash-commands-client | No clientID provided.");
         }
 
         // Return
