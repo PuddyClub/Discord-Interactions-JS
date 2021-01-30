@@ -1,0 +1,1 @@
+const interactions = require('../index');
