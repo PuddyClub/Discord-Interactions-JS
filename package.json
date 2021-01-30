@@ -1,0 +1,26 @@
+{
+  "name": "discord-slash-commands-client",
+  "version": "1.0.0",
+  "description": "A simple way to interact and manage discord slash-commands",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinyPudding/Discord-Interactions-JS.git"
+  },
+  "author": "Yasmin Seidel (JasminDreasond)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TinyPudding/Discord-Interactions-JS/issues"
+  },
+  "homepage": "https://github.com/TinyPudding/Discord-Interactions-JS#readme",
+  "dependencies": {
+    "@tinypudding/puddy-lib": "^1.1.6",
+    "axios": "^0.21.0"
+  },
+  "keywords": [
+    "discord",
+    "slash-commands",
+    "disord-slash-commands",
+    "discord-api"
+  ]
+}
