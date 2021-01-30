@@ -1,5 +1,5 @@
 {
-  "name": "@tinypudding/discord-slash-commands-client",
+  "name": "@tinypudding/discord-slash-commands",
   "version": "1.0.0",
   "description": "A simple way to interact and manage discord slash-commands",
   "main": "index.js",
