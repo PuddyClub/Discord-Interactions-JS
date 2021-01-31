@@ -138,11 +138,11 @@ Properties marked with `?` are optional.
 
 ### Types
 
-You can find a list of Data Models and Types from [here](https://discord.com/developers/docs/interactions/slash-commands#data-models-and-types)
+You can find a list of Data Models and Types from [here](https://discord.com/developers/docs/interactions/slash-commands#data-models-and-types).
 
 # Interaction with the command
 
-You can setup a webhook-based interaction. You can read more about how to do this from the [documentation](https://discord.com/developers/docs/interactions/slash-commands#receiving-an-interaction)
+You can setup a webhook-based interaction. You can read more about how to do this from the [documentation](https://discord.com/developers/docs/interactions/slash-commands#receiving-an-interaction).
 
 ### interaction example response
 
