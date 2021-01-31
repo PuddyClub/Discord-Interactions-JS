@@ -142,10 +142,7 @@ You can find a list of Data Models and Types from [here](https://discord.com/dev
 
 # Interaction with the command
 
-To receive an interaction with the command (when an user uses the command) there are 2 options.
-
-1. You can setup a webhook-based interaction. You can read more about how to do this from the [documentation](https://discord.com/developers/docs/interactions/slash-commands#receiving-an-interaction)
-2. If you're using [discord.js](https://discord.js.org/) you can use my own [fork](https://github.com/MatteZ02/discord.js) to receive events for interaction.
+You can setup a webhook-based interaction. You can read more about how to do this from the [documentation](https://discord.com/developers/docs/interactions/slash-commands#receiving-an-interaction)
 
 ### interaction example response
 
