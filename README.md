@@ -14,7 +14,8 @@
 A simple way to interact and manage discord slash-commands.
 
 # Credits
-The first version made by https://github.com/MatteZ02/discord-interactions.
+This module has been forked to be adapted to the scripts of the Tiny Pudding Server repositories.
+The first version was made by https://github.com/MatteZ02/discord-interactions.
 
 # Usage
 You need to choose whether to type a Bot Token or a User Token.
