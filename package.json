@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/TinyPudding/Discord-Interactions-JS#readme",
   "dependencies": {
-    "@tinypudding/puddy-lib": "^1.1.6",
+    "@tinypudding/puddy-lib": "^1.1.29",
     "axios": "^0.21.1",
     "lodash": "^4.17.21"
   },
